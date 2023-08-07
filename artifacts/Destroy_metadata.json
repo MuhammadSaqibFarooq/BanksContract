@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "destroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"banksContract/Destroyable.sol": "Destroy"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"banksContract/Destroyable.sol": {
+			"keccak256": "0xdd57853f365e28cc62cb4545abe4b2b11262b83a5f1df92e582b5c176f1a19fb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ea620e74a950fc8353d77547a493989b15e5365cf9333b894f917d3bcf5f5f0c",
+				"dweb:/ipfs/QmSezwTHVjDCsLbAUnPvwnrYYDu7iGTwHp6VsbyGZenU9e"
+			]
+		},
+		"banksContract/Ownable.sol": {
+			"keccak256": "0x62bf7aa2a1b9ad691467941833e162554cc1e4e3e3747474209725fac667ac10",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://105577fed9e6c779c1be769f02f45cc748a4bf5bcf6cccc2c3eecac96ab12c2f",
+				"dweb:/ipfs/QmVhCStw5mAzbjXFnaFCG8yZuTSApPLWKLHqfgUXix1sRy"
+			]
+		}
+	},
+	"version": 1
+}

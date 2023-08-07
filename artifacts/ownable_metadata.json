@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"banksContract/Ownable.sol": "ownable"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"banksContract/Ownable.sol": {
+			"keccak256": "0x62bf7aa2a1b9ad691467941833e162554cc1e4e3e3747474209725fac667ac10",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://105577fed9e6c779c1be769f02f45cc748a4bf5bcf6cccc2c3eecac96ab12c2f",
+				"dweb:/ipfs/QmVhCStw5mAzbjXFnaFCG8yZuTSApPLWKLHqfgUXix1sRy"
+			]
+		}
+	},
+	"version": 1
+}
